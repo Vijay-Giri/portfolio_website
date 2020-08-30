@@ -17,7 +17,7 @@ class Home extends Component {
                     </Row>
                     <Row className="border-top justify-content-between p-3">
                         <Col className="p-0">
-                            <img src={profile_pic} alt="profile-pic" width="600px" height="600px"/>
+                            <img src={profile_pic} alt="profile-pic"/>
                         </Col>
 
                     </Row>

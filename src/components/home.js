@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './../styles/Home.css';
-import Header from './Header.js'
-import Footer from './Footer/Footer.js'
+import './../styles/home.css';
+import Header from './header.js'
+import Footer from './footer.js'
 
 class Home extends Component {
     render() {

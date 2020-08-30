@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Home from './components/Home';
+import Home from './components/home.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 

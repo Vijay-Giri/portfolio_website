@@ -21,25 +21,25 @@ class Footer extends Component {
                             href="https://www.linkedin.com/in/vijay-giri-11b1b4154/"
                             target="_blank"
                         >
-                            <FontAwesomeIcon icon={faLinkedin} size="1x" />
+                            <FontAwesomeIcon icon={faLinkedin} size="2x" />
                         </a>
                         <a
                             href="https://github.com/Vijay-Giri"
                             target="_blank"
                         >
-                            <FontAwesomeIcon icon={faGithub} size="1x" />
+                            <FontAwesomeIcon icon={faGithub} size="2x" />
                         </a>
                         <a
                             href="https://www.facebook.com/girivijay008"
                             target="_blank"
                         >
-                            <FontAwesomeIcon icon={faFacebook} size="1x" />
+                            <FontAwesomeIcon icon={faFacebook} size="2x" />
                         </a>
                         <a
                             href="https://www.instagram.com/girivijay008/"
                             target="_blank"
                         >
-                            <FontAwesomeIcon icon={faInstagram} size="1x" />
+                            <FontAwesomeIcon icon={faInstagram} size="2x" />
                         </a>
                     </Col>
                 </Row>

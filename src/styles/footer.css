@@ -1,0 +1,15 @@
+.footerBody {
+    background: #0066FF;
+    padding: 20px 50px;
+}
+
+a {
+    margin: 0 1rem;
+    transition: transform 300ms;
+    display: inline-block;
+}
+
+a:hover {
+    transform: translateY(-5px);
+}
+

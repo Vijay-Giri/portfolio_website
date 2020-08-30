@@ -4,7 +4,8 @@ import styles from './../styles/footer.css';
 import {
     faFacebook,
     faInstagram,
-    faLinkedin
+    faLinkedin,
+    faGithub,
 } from '@fortawesome/free-brands-svg-icons';
 
 class Footer extends Component {
@@ -16,6 +17,12 @@ class Footer extends Component {
                     target="_blank"
                 >
                     <FontAwesomeIcon icon={faLinkedin} size="1x" />
+                </a>
+                <a
+                    href="https://github.com/Vijay-Giri"
+                    target="_blank"
+                >
+                    <FontAwesomeIcon icon={faGithub} size="1x" />
                 </a>
                 <a
                     href="https://www.facebook.com/girivijay008"

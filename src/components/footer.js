@@ -15,18 +15,21 @@ class Footer extends Component {
                 <a
                     href="https://www.linkedin.com/in/vijay-giri-11b1b4154/"
                     className="mr-2"
+                    target="_blank"
                 >
                     <FontAwesomeIcon icon={faLinkedin} size="1x" />
                 </a>
                 <a
                     href="https://www.facebook.com/girivijay008"
                     className="mr-2"
+                    target="_blank"
                 >
                     <FontAwesomeIcon icon={faFacebook} size="1x" />
                 </a>
                 <a
                     href="https://www.instagram.com/girivijay008/"
                     className="mr-2"
+                    target="_blank"
                 >
                     <FontAwesomeIcon icon={faInstagram} size="1x" />
                 </a>

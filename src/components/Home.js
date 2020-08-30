@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import './../styles/Home.css';
+import Header from './Header.js'
+import Footer from './Footer.js'
 
 class Home extends Component {
     render() {
-      return (
-        <div>
-          <p> Portfolio Website </p>
-        </div>
-      );
+        return (
+            <div>
+                <Header />
+                <Footer />
+            </div>
+        );
     }
 }
 

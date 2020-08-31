@@ -10,13 +10,13 @@ const Root = () => (
     <Router forceRefresh>
         <Switch>
             <Route exact path='/'>
-                <Home/>
+                <Home title="Vijay Giri"/>
             </Route>
             <Route exact path='/about'>
-                <About/>
+                <About title="About Me"/>
             </Route>
             <Route exact path='/contact'>
-                <Contact/>
+                <Contact title="Contact Me"/>
             </Route>
         </Switch>
     </Router>

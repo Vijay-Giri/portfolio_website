@@ -7,15 +7,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import profile_pic from './../images/dp.jpeg';
 class Home extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            title: this.props.title
-        }
-    }
-    componentDidMount() {
-        document.title = this.state.title
-    }
     render() {
         return (
             <div>

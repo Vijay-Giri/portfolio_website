@@ -5,6 +5,7 @@ import Footer from './footer.js'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import profile_pic from './../images/dp.jpeg';
 class Home extends Component {
     render() {
@@ -22,8 +23,49 @@ class Home extends Component {
                             <Row>
                                 <b><i>“The most valuable of all talents is that of never using two words when one will do.”</i></b>
                             </Row>
+                            <br />
+                            <hr />
+                            <br />
                             <Row>
-                            
+                                <Flippy
+                                    flipOnHover={true}
+                                    flipOnClick={true}
+                                    flipDirection="horizontal"
+                                    ref={(r) => this.flippy = r}
+                                    style={{ width: "100%", height: "100%" }}
+                                >
+                                    <FrontSide
+                                         style={{
+                                            backgroundColor: 'black',
+                                            color: 'white'
+                                         }}
+                                    >
+                                        Technically inclined individual  with good communication, math, and computer skills.
+                                        Graduated from IIIT Lucknow (2016 - 2020) and currently working as a Software Development
+                                        Engineer - I at Acko General Insurance since January 2020.
+                                    </FrontSide>
+                                    <BackSide
+                                        style={{
+                                            backgroundColor: 'black',
+                                            color: 'white'
+                                        }}
+                                    >
+                                        Technically inclined individual  with good communication, math, and computer skills.
+                                        Graduated from IIIT Lucknow (2016 - 2020) and currently working as a Software Development
+                                        Engineer - I at Acko General Insurance since January 2020.
+                                    </BackSide>
+                                </Flippy>
+                            </Row>
+                            <br />
+                            <hr />
+                            <br />
+                            <Row>
+                                <div>
+                                    <a href="#">Skills</a>
+                                    <a href="#">Projects</a>
+                                    <a href="#">Education</a>
+                                    <a href="#">Experience</a>
+                                </div>
                             </Row>
                         </Col>
                     </Row>
